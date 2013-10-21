@@ -1,0 +1,70 @@
+
+header,section,footer{
+	max-width:450px;
+}
+
+header{
+	height:80px;
+	width:100%;
+	background:#303030 ;
+	padding:10px;
+}
+header #encabezado h1{
+	color:white;
+	font:bold 20px arial;
+}
+
+nav{
+	margin-top:-10px;
+	width:80%;
+	height:100%;
+	margin:auto;
+
+}
+
+section ul li{
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition:all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	border-radius: 0.5em 0.5em 0.5em 0.5em; 
+	-moz-border-radius: 0.5em 0.5em 0.5em 0.5em; 
+	-webkit-border-radius:0.5em 0.5em 0.5em 0.5em;
+	margin:auto;	background:white;
+	padding-top:10px; font:16px arial;
+	padding-bottom:10px;
+	margin-top:10px;
+	width:100%;
+}
+
+section ul li a:hover{
+	
+}
+section ul li:hover{
+	color:white;
+	cursor:pointer;
+	background:black;	
+}
+
+#encabezado{
+	float:left;
+	width:50%;
+	height:100%;
+}
+#logo{
+	background:url('carro.png');
+	height:85px;
+	width:132px;
+	float:right;
+}
+footer{
+	height:80px;
+	width:100%;
+	background:#303030 ;
+	padding:10px;
+}
+section{
+	height:205px;
+	width:100%;
+	padding:10px;
+	background:url('fondo.png');
+}
